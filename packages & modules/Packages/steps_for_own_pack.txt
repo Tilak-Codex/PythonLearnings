@@ -1,0 +1,42 @@
+#Creating own packages
+
+
+1.Create a directory it will server as the root directory
+
+2.Add modules to the directory
+
+3.addd __init__.py
+
+4.You can also create sub directories (having their own __init__.py file)
+
+5. package is created (this package can be accessed within the parent folder).
+
+
+
+#publishing our package
+
+we can publish our package using python package index (pyp)
+
+create a file named setup.py (the code can be found in internet edit in accordinly)
+
+create MIT license (edit only dev name)  file name LICENSE 
+
+put the above files in a directory
+
+create pyp account
+
+navigate to cmd (open the package parent directory)
+
+python -m pip install --upgrade twine setuptools
+
+pip install wheel
+
+python setup.py sdist bdist_wheel
+
+Now .info file is created in the directory
+
+pip install twine
+
+python -m twine upload dist/*    (or  twine upload dist/*) use before only when this gets error
+
+enter pypi username and password

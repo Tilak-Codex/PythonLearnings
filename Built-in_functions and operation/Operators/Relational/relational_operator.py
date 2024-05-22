@@ -1,0 +1,12 @@
+#Relational or comparison operator
+
+
+"""
+        >
+        >=
+        <
+        <=
+        ==
+        !=
+
+"""
