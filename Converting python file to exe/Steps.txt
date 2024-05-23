@@ -1,0 +1,28 @@
+Easy Way
+
+Install pyinstaller pip intall pyinstaller
+
+Open cmd in the project directory
+
+pyinstaller filename.py
+
+We get two folders
+
+open dist(contains extra files also)
+
+Demerit :- We get extra files
+
+Overcoming Demerit
+
+pyinstaller --onefile filename.py
+
+
+
+Working on multiple file
+
+install auto-py-to-exe on cmd
+
+now go to the project directory  and type auto-py-to-exe
+
+Now browser will open
+

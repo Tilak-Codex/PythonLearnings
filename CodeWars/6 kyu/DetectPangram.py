@@ -17,7 +17,7 @@ def is_pangram(string):
 
 import string
 def pangram(s):
-    return set(string.ascii_lowercase).issubset(s.lower())
+    return set(string.ascii_lowercase).issubset(s.lower())     #Comparison between set and string
 
 
 print(pangram(input("Enter a string")))
