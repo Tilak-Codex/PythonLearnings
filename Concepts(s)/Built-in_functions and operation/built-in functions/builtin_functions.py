@@ -16,7 +16,7 @@ l=[1,2,3]
 #print(all(l))
 #use case -> In checking multiple conditions and all has to be true
 #eg
-
+#In dictionary, only keys are considered
 likes=1200
 comm=500
 k=[likes>1000,comm>300]
@@ -39,7 +39,7 @@ k=[likes>1000,comm>300]
 #4.callable(object) -> Returns True if the given object is callable else false
 """ Even if callable() returns True the funtion may be unable to call
       But if it returns False we cannot call the object certainly"""
-print(callable(str.count()))
+#print(callable(str.count()))
 
 #5.min(seq) -> Returns minimum value in a sequence
 

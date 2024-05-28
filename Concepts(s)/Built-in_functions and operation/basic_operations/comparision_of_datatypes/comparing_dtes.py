@@ -37,7 +37,7 @@ l1=[6,2,3]
 l2=[5,2,3,4]
 #print(l1==l2)
 
-"""Using greater etc ---> Compares each and every element of bot the list, the list with first greater element is larger"""
+"""Using greater etc ---> Compares each and every element of both the list, the list with first greater element is larger"""
 #print(l1<l2)
 
 #3.tuple

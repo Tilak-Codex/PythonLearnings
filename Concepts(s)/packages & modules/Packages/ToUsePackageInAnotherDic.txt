@@ -1,0 +1,6 @@
+import sys
+sys.path.abspath("pathtopackage")
+import package
+
+
+Relative imports if present in parent directory
