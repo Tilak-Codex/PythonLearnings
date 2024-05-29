@@ -17,12 +17,14 @@ class Phone:
         print("price",self.price)
        
 samsung=Phone("samsung","1000")
-
+moto=Phone("moto","3000")
 samsung.display()
-print(Phone.chargertype)
+#print(Phone.chargertype)
+#print(samsung.chargertype)
+samsung.chargertype="btype"
 print(samsung.chargertype)
-
-
+print(moto.chargertype)
+print(Phone.chargertype)
 """
             Memory for the static variables is allocated once object for the class is created
             They can be accessed using class_name.attribute_name (within and outside the class )

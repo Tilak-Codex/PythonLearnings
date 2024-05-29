@@ -33,7 +33,7 @@
 
 #Constructor
 """
-        def __init(self):  is a constructor of a class
+        def __init__(self):  is a constructor of a class
         It is used to initialise value to the attributes in a class
         It is called implicitly when instance of the class is created
         It is built-in function
@@ -62,7 +62,7 @@ hp=Laptop(20000,"6GB","i3")
 dell=Laptop(30000,"6GB",'i3')
 
 
-print(hp.display())   #Internally passed as h.display(hp)
+print(hp.display())   #Internally passed as hp.display(hp)
 print(dell.display())
 
 #if self is printed,it gives the memory location of the class
