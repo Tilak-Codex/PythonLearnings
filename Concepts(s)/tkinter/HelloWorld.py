@@ -1,9 +1,12 @@
-import tkinter
+from tkinter import *
 
 
-root=tkinter.Tk() #This variable is instance of Tk class
+root=Tk() #This variable is instance of Tk class
 
 
 #gui logic
+MyLabel=Label(root,text="Hello World")
+
+MyLabel.pack()
 
 root.mainloop()  #Remembers the logic of gui
